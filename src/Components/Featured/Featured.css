@@ -1,0 +1,21 @@
+.featured {
+    background-color: #f7f9fc;
+    min-height: 87.5vh;
+}
+.card-featured {
+    height: fit-content;
+    padding: 1.7rem 1rem; 
+    cursor: pointer;
+}
+.icon-fe {
+    background-color: rgb(229, 229, 229);
+    width: fit-content;
+    height: fit-content;
+    padding: .25rem;
+    border-radius: 50%;
+    margin: 0 .25rem;
+    cursor: pointer;
+}
+.card-featured:hover {
+    opacity: 0.9;
+}

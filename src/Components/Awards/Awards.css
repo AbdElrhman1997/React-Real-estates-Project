@@ -1,0 +1,11 @@
+.awards {
+    min-height: 87.5vh;
+    background-color: #122947;
+}
+.icon {
+    border-radius: 0 50% 0 50%;
+    width: 6rem;
+    height: 6rem;
+    padding: 0 2rem;
+    background-color: hsla(0,0%,100%,.1);
+}

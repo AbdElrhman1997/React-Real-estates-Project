@@ -1,0 +1,19 @@
+.home {
+    height: 87.5vh;
+    background-image: url(https://funny-daffodil-350bc9.netlify.app/static/media/banner.1a3c8a0a448e8e24f6a0.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+form {
+    position: relative;
+    top: 20vh;
+    height: 100px;
+    width: 70%;
+    margin: auto;
+    border: 2px solid black;
+    color: white;
+}
+td {
+    border: 2px solid black;
+}
