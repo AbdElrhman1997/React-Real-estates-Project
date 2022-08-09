@@ -4,7 +4,7 @@ import './About.css'
 
 const About = () => {
     return (
-        <div className='about container grid grid-cols-12 gap-5 mx-auto'>
+        <div className='about grid grid-cols-12 gap-5'>
             <div data-aos='fade-right' data-aos-delay='600' className=' lg:col-span-6 col-span-12 text-left w-5/6 m-auto'>
                 <p className='text-slate-800 font-bold text-4xl mt-8 mb-3'>Our Agency Story</p>
                 <p className='text-gray-500'>Check out our company story and work process</p>
