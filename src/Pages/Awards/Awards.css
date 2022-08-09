@@ -1,0 +1,17 @@
+.awards {
+    background-color: #122947;
+}
+.icon {
+    border-radius: 0 50% 0 50%;
+    width: 6rem;
+    height: 6rem;
+    padding: 0 2rem;
+    background-color: hsla(0,0%,100%,.1);
+}
+.awardsCard {
+    width: 100%;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

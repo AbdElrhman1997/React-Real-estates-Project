@@ -1,0 +1,15 @@
+.contact {
+    padding: 4rem;
+}
+textarea,input {
+    border-radius: 6px;
+    border: 1.5px solid rgb(222, 222, 222);
+    resize:none;
+    display: block;
+    margin: 1rem 0;
+    padding: .5rem;
+    width: 40%;
+}
+textarea {
+    width: 100%;
+}

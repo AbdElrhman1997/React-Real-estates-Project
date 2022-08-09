@@ -1,0 +1,44 @@
+.nav {
+    height: 12.5vh;
+    background-color: rgb(236, 239, 246);
+    z-index: 10;
+}
+.container {
+    height: 12.5vh;
+}
+.logo {
+    width: 170px;
+    height: 50px;
+}
+.nav-list {
+    position: absolute;
+    top: 12.5vh;
+    right: 0;
+    width: 50%;
+    z-index: 1;
+    animation: dropDown 0.5s ease-in-out;
+    height: 87.5vh;
+}
+.nav-list li a:hover {
+    color: rgba(34,197,94,0.8);
+}
+.btn:hover {
+    background-color: rgb(27, 154, 74);
+    cursor: pointer;
+}
+@media (max-width:767px) {
+    .nav-list li {
+        margin:1rem 0;
+    }
+    .nav-list li a:hover {
+        color: rgba(2, 71, 28, 0.8);
+    }
+}
+@keyframes dropDown {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}

@@ -1,0 +1,13 @@
+.card {
+    width: 90%;
+    height: fit-content;
+    margin: 4rem auto;
+}
+.blogImg {
+    width: 100%;
+}
+@media (min-width:568px) and (max-width:768px) {
+    .card {
+        width: 70%;
+    }
+}

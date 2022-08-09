@@ -1,0 +1,10 @@
+.home {
+    position: relative;
+}
+.homeSec {
+    height: 87.5vh;
+    background-image: url(https://funny-daffodil-350bc9.netlify.app/static/media/banner.1a3c8a0a448e8e24f6a0.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}

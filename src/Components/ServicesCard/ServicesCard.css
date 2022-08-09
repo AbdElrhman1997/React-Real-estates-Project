@@ -1,0 +1,14 @@
+.servicesCard {
+    padding: 3rem 0;
+    width: 100%;
+    margin: 3rem auto;
+}
+.servicesImg {
+    width: 80px;
+    height: 80px;
+}
+@media (min-width:568px) and (max-width:768px) {
+    .servicesCard {
+        width: 70%;
+    }
+}

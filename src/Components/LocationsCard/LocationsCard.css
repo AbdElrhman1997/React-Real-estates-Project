@@ -1,0 +1,37 @@
+.box1,.box2,.box3,.box4,.box5,.box6 {
+    border-radius: 6px;
+    background-image: url(../../Images/Locations1.jpg);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 13rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 1rem auto;
+    width: 90%;
+}
+.box2 {
+    background-image: url(../../Images/Locations2.jpg);
+}
+.box3 {
+    background-image: url(../../Images/Locations3.png);
+}
+
+.box4 {
+    background-image: url(../../Images/Locations4.png);
+}
+.box5 {
+    background-image: url(../../Images/Locations5.png);
+}
+.box6 {
+    background-image: url(../../Images/Locations6.png);
+} 
+@media (min-width:568px) and (max-width:768px) {
+    .box1,.box2,.box3,.box4,.box5,.box6 {
+        margin: 3rem auto;
+        width: 70%;
+    }
+}

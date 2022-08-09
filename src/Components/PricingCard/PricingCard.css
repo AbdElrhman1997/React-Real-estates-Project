@@ -1,0 +1,37 @@
+.card-Price {
+    height: fit-content;
+    width: 90%;
+    padding: 1.7rem 1rem;  
+    margin: 2rem auto;
+}
+.true,.false {
+    font-size: 24px;
+    line-height: 2;
+    border-radius: 50%;
+    padding: .25rem;
+    margin: .85rem 1rem;
+}
+.true {
+    background-color: rgb(220 252 231);
+    color:rgb(34 197 94);
+}
+.false {
+    background-color: rgb(254 226 226);
+    color: rgb(239 68 68);
+}
+.btn-pr {
+    border-radius: 2rem;
+    padding: .75rem 1.2rem;
+}
+.btn-pr:hover p {
+    color: white;
+}
+.btn-pr:hover {
+    background-color: rgb(34 197 94);
+    cursor: pointer;
+}
+@media (min-width:568px) and (max-width:768px) {
+    .card-Price {
+        width: 70%;
+    }
+}
